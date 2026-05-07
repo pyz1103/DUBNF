@@ -37,8 +37,8 @@ except ImportError:
 
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
-DEFAULT_DATA_DIR = ROOT_DIR / "datesets" / "select_data"
-DEFAULT_OUTPUT_DIR = ROOT_DIR / "datesets" / "results" / "london260407" / "CGLU"
+DEFAULT_DATA_DIR = ROOT_DIR / "datesets"
+DEFAULT_OUTPUT_DIR = ROOT_DIR / "datesets" / "results" / "london260407"
 DEFAULT_TRAIN_TEMPLATE = "air_quality.{split_id}.train.csv"
 DEFAULT_TEST_TEMPLATE = "air_quality.{split_id}.test.csv"
 DEFAULT_SPLIT_IDS = (5, 6, 7, 8, 9)
