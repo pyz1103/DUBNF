@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Example
 
 ```bash
-python train_air_quality.py --data-dir ../datesets/select_data --output-dir ../datesets/results/dubnf
+python train_air_quality.py --data-dir ../datesets/original_data --output-dir ../datesets/results/dubnf
 ```
 
 The default script expects train/test CSV files with `datetime`, `latitude`, `longitude`, and `pm10` columns. Use `--train-csv` and `--test-csv` for a single explicit split, or `--split-ids` with filename templates for batch evaluation.
