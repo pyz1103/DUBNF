@@ -1,0 +1,9 @@
+flax
+jax
+jaxtyping
+matplotlib
+numpy
+optax
+pandas
+scikit-learn
+tensorflow-probability
